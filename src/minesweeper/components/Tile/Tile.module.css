@@ -1,0 +1,14 @@
+.tile{
+    display: inline-block;
+
+    width: 2em;
+    height: 2em;
+
+    margin: 0;
+
+    border: solid darkgrey 1px;
+}
+
+.tile:hover{
+    background-color: lightgray;
+}
