@@ -1,6 +1,11 @@
 import { Tile } from '../Tile/Tile';
 
-export function PlayingField(props) {
+export interface PlayingFieldProps {
+    width: number;
+    height: number;
+}
+
+export function PlayingField(props: PlayingFieldProps) {
     return <>{generateField(props.width, props.height)}</>;
 }
 
